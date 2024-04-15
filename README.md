@@ -53,4 +53,4 @@ The core scripts included in this repository are:
 We welcome contributions to this project. If you have suggestions for improvements or bug fixes, please open an issue or a pull request.
 
 ## Contact
-For any queries or further discussion, please contact my linkedin id link is in bio.
+For any queries or further discussion, please contact at my linkedin id link is in bio.
