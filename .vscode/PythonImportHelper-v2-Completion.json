@@ -1,0 +1,1253 @@
+[
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
+        "label": "seaborn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "seaborn",
+        "description": "seaborn",
+        "detail": "seaborn",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "metrics",
+        "importPath": "sklearn",
+        "description": "sklearn",
+        "isExtraImport": true,
+        "detail": "sklearn",
+        "documentation": {}
+    },
+    {
+        "label": "DecisionTreeClassifier",
+        "importPath": "sklearn.tree",
+        "description": "sklearn.tree",
+        "isExtraImport": true,
+        "detail": "sklearn.tree",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "roc_curve",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "auc",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "precision_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "recall_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "f1_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "precision_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "recall_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "f1_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "roc_auc_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "MultinomialNB",
+        "importPath": "sklearn.naive_bayes",
+        "description": "sklearn.naive_bayes",
+        "isExtraImport": true,
+        "detail": "sklearn.naive_bayes",
+        "documentation": {}
+    },
+    {
+        "label": "RandomForestClassifier",
+        "importPath": "sklearn.ensemble",
+        "description": "sklearn.ensemble",
+        "isExtraImport": true,
+        "detail": "sklearn.ensemble",
+        "documentation": {}
+    },
+    {
+        "label": "twitter_bot",
+        "kind": 6,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "class twitter_bot(object):\n    def __init__(self):\n        pass\n    def perform_train_test_split(df):\n        msk = np.random.rand(len(df)) < 0.75\n        train, test = df[msk], df[~msk]\n        X_train, y_train = train, train.iloc[:,-1]\n        X_test, y_test = test, test.iloc[:, -1]\n        return (X_train, y_train, X_test, y_test)\n    def get_heatmap(df):",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "get_heatmap",
+        "kind": 2,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "def get_heatmap(df):\n    #This function gives heatmap of all NaN values\n    plt.figure(figsize=(29,21))\n    sns.heatmap(df.isnull(), yticklabels=False, cbar=False, cmap='plasma')\n    sns.set(font_scale=15.0)\n    plt.title('Heatmap of all NaN values', fontname=\"Times New Roman\", fontsize=50, fontweight=\"bold\")\n    return plt.show()\nget_heatmap(training_data)\n# In[74]:\nsns.set(font_scale=1)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "mpl.rcParams['patch.force_edgecolor']",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "mpl.rcParams['patch.force_edgecolor'] = True\nwarnings.filterwarnings(\"ignore\")\nget_ipython().run_line_magic('matplotlib', 'inline')\n# In[61]:\nfile= 'training_data.csv'\ntraining_data = pd.read_csv(file)\n# In[62]:\ntraining_data.head()\n# In[63]:",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "training_data",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "training_data = pd.read_csv(file)\n# In[62]:\ntraining_data.head()\n# In[63]:\n# printing all columns\ncount = 1\nfor col in training_data.columns:\n  print(f'{count} -> {col}')\n  count += 1\n# In[64]:",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "count = 1\nfor col in training_data.columns:\n  print(f'{count} -> {col}')\n  count += 1\n# In[64]:\ntraining_data.info()\n# In[65]:\n# Statistical details of the data\ntraining_data.describe()",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "bots",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "bots = training_data[training_data.bot==1]\nnonbots = training_data[training_data.bot==0]\n# #### Number of Real Accounts vs Number of Fake Accounts\n# In[69]:\n# value counts of humans and bots\nhuman_bots = training_data.bot\nhuman_bots.value_counts()\n# In[70]:\ncount_real = human_bots.value_counts()[0]\ncount_fake = human_bots.value_counts()[1]",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "nonbots",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "nonbots = training_data[training_data.bot==0]\n# #### Number of Real Accounts vs Number of Fake Accounts\n# In[69]:\n# value counts of humans and bots\nhuman_bots = training_data.bot\nhuman_bots.value_counts()\n# In[70]:\ncount_real = human_bots.value_counts()[0]\ncount_fake = human_bots.value_counts()[1]",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "human_bots",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "human_bots = training_data.bot\nhuman_bots.value_counts()\n# In[70]:\ncount_real = human_bots.value_counts()[0]\ncount_fake = human_bots.value_counts()[1]\n# In[71]:\nplt.figure(figsize=(6, 6))\nsns.barplot(x = ['Real Account', 'Fake Account'], y = [count_real, count_fake], palette = sns.color_palette('magma'))\nplt.title(\"Number of Entries by Account Type\", fontname=\"Times New Roman\", fontsize=21, fontweight=\"bold\")\nsns.despine()",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "count_real",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "count_real = human_bots.value_counts()[0]\ncount_fake = human_bots.value_counts()[1]\n# In[71]:\nplt.figure(figsize=(6, 6))\nsns.barplot(x = ['Real Account', 'Fake Account'], y = [count_real, count_fake], palette = sns.color_palette('magma'))\nplt.title(\"Number of Entries by Account Type\", fontname=\"Times New Roman\", fontsize=21, fontweight=\"bold\")\nsns.despine()\n# #### Identifying Missing data\n# In[72]:\n# Column wise NaN value count",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "count_fake",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "count_fake = human_bots.value_counts()[1]\n# In[71]:\nplt.figure(figsize=(6, 6))\nsns.barplot(x = ['Real Account', 'Fake Account'], y = [count_real, count_fake], palette = sns.color_palette('magma'))\nplt.title(\"Number of Entries by Account Type\", fontname=\"Times New Roman\", fontsize=21, fontweight=\"bold\")\nsns.despine()\n# #### Identifying Missing data\n# In[72]:\n# Column wise NaN value count\ntraining_data.isnull().sum()",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "sns.barplot(x",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "sns.barplot(x = ['Real Account', 'Fake Account'], y = [count_real, count_fake], palette = sns.color_palette('magma'))\nplt.title(\"Number of Entries by Account Type\", fontname=\"Times New Roman\", fontsize=21, fontweight=\"bold\")\nsns.despine()\n# #### Identifying Missing data\n# In[72]:\n# Column wise NaN value count\ntraining_data.isnull().sum()\n# In[73]:\ndef get_heatmap(df):\n    #This function gives heatmap of all NaN values",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "bots['friends_by_followers']",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "bots['friends_by_followers'] = bots.friends_count/bots.followers_count\nbots[bots.friends_by_followers<1].shape\n# In[80]:\nnonbots['friends_by_followers'] = nonbots.friends_count/nonbots.followers_count\nnonbots[nonbots.friends_by_followers<1].shape\n# In[81]:\nplt.figure(figsize=(10,5))\nplt.plot(bots.listed_count, color='purple', label='Fake Accounts')\nplt.plot(nonbots.listed_count, color='blue', label='Real Accounts')\nplt.legend(loc='upper left')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "nonbots['friends_by_followers']",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "nonbots['friends_by_followers'] = nonbots.friends_count/nonbots.followers_count\nnonbots[nonbots.friends_by_followers<1].shape\n# In[81]:\nplt.figure(figsize=(10,5))\nplt.plot(bots.listed_count, color='purple', label='Fake Accounts')\nplt.plot(nonbots.listed_count, color='blue', label='Real Accounts')\nplt.legend(loc='upper left')\nplt.ylim(10000,20000)\nprint(bots[(bots.listed_count<5)].shape)\n# In[82]:",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "bots_listed_count_df",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "bots_listed_count_df = bots[bots.listed_count<16000]\nnonbots_listed_count_df = nonbots[nonbots.listed_count<16000]\nbots_verified_df = bots_listed_count_df[bots_listed_count_df.verified==False]\nbots_screenname_has_bot_df_ = bots_verified_df[(bots_verified_df.screen_name.str.contains(\"bot\", case=False)==True)].shape\n# In[83]:\nplt.figure(figsize=(12,7))\nplt.subplot(2,1,1)\nplt.plot(bots_listed_count_df.friends_count, color='purple', label='Fake Accounts Friends')\nplt.plot(nonbots_listed_count_df.friends_count, color='blue', label='Real Accounts Friends')\nplt.legend(loc='upper left')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "nonbots_listed_count_df",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "nonbots_listed_count_df = nonbots[nonbots.listed_count<16000]\nbots_verified_df = bots_listed_count_df[bots_listed_count_df.verified==False]\nbots_screenname_has_bot_df_ = bots_verified_df[(bots_verified_df.screen_name.str.contains(\"bot\", case=False)==True)].shape\n# In[83]:\nplt.figure(figsize=(12,7))\nplt.subplot(2,1,1)\nplt.plot(bots_listed_count_df.friends_count, color='purple', label='Fake Accounts Friends')\nplt.plot(nonbots_listed_count_df.friends_count, color='blue', label='Real Accounts Friends')\nplt.legend(loc='upper left')\nplt.subplot(2,1,2)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "bots_verified_df",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "bots_verified_df = bots_listed_count_df[bots_listed_count_df.verified==False]\nbots_screenname_has_bot_df_ = bots_verified_df[(bots_verified_df.screen_name.str.contains(\"bot\", case=False)==True)].shape\n# In[83]:\nplt.figure(figsize=(12,7))\nplt.subplot(2,1,1)\nplt.plot(bots_listed_count_df.friends_count, color='purple', label='Fake Accounts Friends')\nplt.plot(nonbots_listed_count_df.friends_count, color='blue', label='Real Accounts Friends')\nplt.legend(loc='upper left')\nplt.subplot(2,1,2)\nplt.plot(bots_listed_count_df.followers_count, color='purple', label='Fake Accounts Followers')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "bots_screenname_has_bot_df_",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "bots_screenname_has_bot_df_ = bots_verified_df[(bots_verified_df.screen_name.str.contains(\"bot\", case=False)==True)].shape\n# In[83]:\nplt.figure(figsize=(12,7))\nplt.subplot(2,1,1)\nplt.plot(bots_listed_count_df.friends_count, color='purple', label='Fake Accounts Friends')\nplt.plot(nonbots_listed_count_df.friends_count, color='blue', label='Real Accounts Friends')\nplt.legend(loc='upper left')\nplt.subplot(2,1,2)\nplt.plot(bots_listed_count_df.followers_count, color='purple', label='Fake Accounts Followers')\nplt.plot(nonbots_listed_count_df.followers_count, color='blue', label='Real Accounts Followers')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "condition",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "condition = (bots.screen_name.str.contains(\"bot\", case=False)==True)|(bots.description.str.contains(\"bot\", case=False)==True)|(bots.location.isnull())|(bots.verified==False)\nbots['screen_name_binary'] = (bots.screen_name.str.contains(\"bot\", case=False)==True)\nbots['location_binary'] = (bots.location.isnull())\nbots['verified_binary'] = (bots.verified==False)\nbots.shape\n# In[85]:\ncondition = (nonbots.screen_name.str.contains(\"bot\", case=False)==False)| (nonbots.description.str.contains(\"bot\", case=False)==False) |(nonbots.location.isnull()==False)|(nonbots.verified==True)\nnonbots['screen_name_binary'] = (nonbots.screen_name.str.contains(\"bot\", case=False)==False)\nnonbots['location_binary'] = (nonbots.location.isnull()==False)\nnonbots['verified_binary'] = (nonbots.verified==True)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "bots['screen_name_binary']",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "bots['screen_name_binary'] = (bots.screen_name.str.contains(\"bot\", case=False)==True)\nbots['location_binary'] = (bots.location.isnull())\nbots['verified_binary'] = (bots.verified==False)\nbots.shape\n# In[85]:\ncondition = (nonbots.screen_name.str.contains(\"bot\", case=False)==False)| (nonbots.description.str.contains(\"bot\", case=False)==False) |(nonbots.location.isnull()==False)|(nonbots.verified==True)\nnonbots['screen_name_binary'] = (nonbots.screen_name.str.contains(\"bot\", case=False)==False)\nnonbots['location_binary'] = (nonbots.location.isnull()==False)\nnonbots['verified_binary'] = (nonbots.verified==True)\nnonbots.shape",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "bots['location_binary']",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "bots['location_binary'] = (bots.location.isnull())\nbots['verified_binary'] = (bots.verified==False)\nbots.shape\n# In[85]:\ncondition = (nonbots.screen_name.str.contains(\"bot\", case=False)==False)| (nonbots.description.str.contains(\"bot\", case=False)==False) |(nonbots.location.isnull()==False)|(nonbots.verified==True)\nnonbots['screen_name_binary'] = (nonbots.screen_name.str.contains(\"bot\", case=False)==False)\nnonbots['location_binary'] = (nonbots.location.isnull()==False)\nnonbots['verified_binary'] = (nonbots.verified==True)\nnonbots.shape\n# In[86]:",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "bots['verified_binary']",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "bots['verified_binary'] = (bots.verified==False)\nbots.shape\n# In[85]:\ncondition = (nonbots.screen_name.str.contains(\"bot\", case=False)==False)| (nonbots.description.str.contains(\"bot\", case=False)==False) |(nonbots.location.isnull()==False)|(nonbots.verified==True)\nnonbots['screen_name_binary'] = (nonbots.screen_name.str.contains(\"bot\", case=False)==False)\nnonbots['location_binary'] = (nonbots.location.isnull()==False)\nnonbots['verified_binary'] = (nonbots.verified==True)\nnonbots.shape\n# In[86]:\ndf = pd.concat([bots, nonbots])",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "condition",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "condition = (nonbots.screen_name.str.contains(\"bot\", case=False)==False)| (nonbots.description.str.contains(\"bot\", case=False)==False) |(nonbots.location.isnull()==False)|(nonbots.verified==True)\nnonbots['screen_name_binary'] = (nonbots.screen_name.str.contains(\"bot\", case=False)==False)\nnonbots['location_binary'] = (nonbots.location.isnull()==False)\nnonbots['verified_binary'] = (nonbots.verified==True)\nnonbots.shape\n# In[86]:\ndf = pd.concat([bots, nonbots])\ndf.shape\n# ### Feature Independence using Spearman correlation\n# In[87]:",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "nonbots['screen_name_binary']",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "nonbots['screen_name_binary'] = (nonbots.screen_name.str.contains(\"bot\", case=False)==False)\nnonbots['location_binary'] = (nonbots.location.isnull()==False)\nnonbots['verified_binary'] = (nonbots.verified==True)\nnonbots.shape\n# In[86]:\ndf = pd.concat([bots, nonbots])\ndf.shape\n# ### Feature Independence using Spearman correlation\n# In[87]:\ndf.corr(method='spearman')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "nonbots['location_binary']",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "nonbots['location_binary'] = (nonbots.location.isnull()==False)\nnonbots['verified_binary'] = (nonbots.verified==True)\nnonbots.shape\n# In[86]:\ndf = pd.concat([bots, nonbots])\ndf.shape\n# ### Feature Independence using Spearman correlation\n# In[87]:\ndf.corr(method='spearman')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "nonbots['verified_binary']",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "nonbots['verified_binary'] = (nonbots.verified==True)\nnonbots.shape\n# In[86]:\ndf = pd.concat([bots, nonbots])\ndf.shape\n# ### Feature Independence using Spearman correlation\n# In[87]:\ndf.corr(method='spearman')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "df = pd.concat([bots, nonbots])\ndf.shape\n# ### Feature Independence using Spearman correlation\n# In[87]:\ndf.corr(method='spearman')\n# In[88]:\nplt.figure(figsize=(14,12))\nsns.heatmap(df.corr(method='spearman'), cmap='RdBu_r', annot=True)\nplt.tight_layout()\nplt.show()",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "training_data",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "training_data = pd.read_csv(file)\nbag_of_words_bot = r'bot|b0t|cannabis|tweet me|mishear|follow me|updates every|gorilla|yes_ofc|forget'                     r'expos|kill|clit|bbb|butt|fuck|XXX|sex|truthe|fake|anony|free|virus|funky|RNA|kuck|jargon'                     r'nerd|swag|jack|bang|bonsai|chick|prison|paper|pokem|xx|freak|ffd|dunia|clone|genie|bbb'                     r'ffd|onlyman|emoji|joke|troll|droop|free|every|wow|cheese|yeah|bio|magic|wizard|face'\ntraining_data['screen_name_binary'] = training_data.screen_name.str.contains(bag_of_words_bot, case=False, na=False)\ntraining_data['name_binary'] = training_data.name.str.contains(bag_of_words_bot, case=False, na=False)\ntraining_data['description_binary'] = training_data.description.str.contains(bag_of_words_bot, case=False, na=False)\ntraining_data['status_binary'] = training_data.status.str.contains(bag_of_words_bot, case=False, na=False)\n# #### Performing Feature Extraction\n# In[90]:\ntraining_data['listed_count_binary'] = (training_data.listed_count>20000)==False\nfeatures = ['screen_name_binary', 'name_binary', 'description_binary', 'status_binary', 'verified', 'followers_count', 'friends_count', 'statuses_count', 'listed_count_binary', 'bot']",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "bag_of_words_bot",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "bag_of_words_bot = r'bot|b0t|cannabis|tweet me|mishear|follow me|updates every|gorilla|yes_ofc|forget'                     r'expos|kill|clit|bbb|butt|fuck|XXX|sex|truthe|fake|anony|free|virus|funky|RNA|kuck|jargon'                     r'nerd|swag|jack|bang|bonsai|chick|prison|paper|pokem|xx|freak|ffd|dunia|clone|genie|bbb'                     r'ffd|onlyman|emoji|joke|troll|droop|free|every|wow|cheese|yeah|bio|magic|wizard|face'\ntraining_data['screen_name_binary'] = training_data.screen_name.str.contains(bag_of_words_bot, case=False, na=False)\ntraining_data['name_binary'] = training_data.name.str.contains(bag_of_words_bot, case=False, na=False)\ntraining_data['description_binary'] = training_data.description.str.contains(bag_of_words_bot, case=False, na=False)\ntraining_data['status_binary'] = training_data.status.str.contains(bag_of_words_bot, case=False, na=False)\n# #### Performing Feature Extraction\n# In[90]:\ntraining_data['listed_count_binary'] = (training_data.listed_count>20000)==False\nfeatures = ['screen_name_binary', 'name_binary', 'description_binary', 'status_binary', 'verified', 'followers_count', 'friends_count', 'statuses_count', 'listed_count_binary', 'bot']\n# ## Implementing Different Models",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "training_data['screen_name_binary']",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "training_data['screen_name_binary'] = training_data.screen_name.str.contains(bag_of_words_bot, case=False, na=False)\ntraining_data['name_binary'] = training_data.name.str.contains(bag_of_words_bot, case=False, na=False)\ntraining_data['description_binary'] = training_data.description.str.contains(bag_of_words_bot, case=False, na=False)\ntraining_data['status_binary'] = training_data.status.str.contains(bag_of_words_bot, case=False, na=False)\n# #### Performing Feature Extraction\n# In[90]:\ntraining_data['listed_count_binary'] = (training_data.listed_count>20000)==False\nfeatures = ['screen_name_binary', 'name_binary', 'description_binary', 'status_binary', 'verified', 'followers_count', 'friends_count', 'statuses_count', 'listed_count_binary', 'bot']\n# ## Implementing Different Models\n# ## Decision Tree Classifier",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "training_data['name_binary']",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "training_data['name_binary'] = training_data.name.str.contains(bag_of_words_bot, case=False, na=False)\ntraining_data['description_binary'] = training_data.description.str.contains(bag_of_words_bot, case=False, na=False)\ntraining_data['status_binary'] = training_data.status.str.contains(bag_of_words_bot, case=False, na=False)\n# #### Performing Feature Extraction\n# In[90]:\ntraining_data['listed_count_binary'] = (training_data.listed_count>20000)==False\nfeatures = ['screen_name_binary', 'name_binary', 'description_binary', 'status_binary', 'verified', 'followers_count', 'friends_count', 'statuses_count', 'listed_count_binary', 'bot']\n# ## Implementing Different Models\n# ## Decision Tree Classifier\n# In[91]:",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "training_data['description_binary']",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "training_data['description_binary'] = training_data.description.str.contains(bag_of_words_bot, case=False, na=False)\ntraining_data['status_binary'] = training_data.status.str.contains(bag_of_words_bot, case=False, na=False)\n# #### Performing Feature Extraction\n# In[90]:\ntraining_data['listed_count_binary'] = (training_data.listed_count>20000)==False\nfeatures = ['screen_name_binary', 'name_binary', 'description_binary', 'status_binary', 'verified', 'followers_count', 'friends_count', 'statuses_count', 'listed_count_binary', 'bot']\n# ## Implementing Different Models\n# ## Decision Tree Classifier\n# In[91]:",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "training_data['status_binary']",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "training_data['status_binary'] = training_data.status.str.contains(bag_of_words_bot, case=False, na=False)\n# #### Performing Feature Extraction\n# In[90]:\ntraining_data['listed_count_binary'] = (training_data.listed_count>20000)==False\nfeatures = ['screen_name_binary', 'name_binary', 'description_binary', 'status_binary', 'verified', 'followers_count', 'friends_count', 'statuses_count', 'listed_count_binary', 'bot']\n# ## Implementing Different Models\n# ## Decision Tree Classifier\n# In[91]:\nfrom sklearn.tree import DecisionTreeClassifier",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "training_data['listed_count_binary']",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "training_data['listed_count_binary'] = (training_data.listed_count>20000)==False\nfeatures = ['screen_name_binary', 'name_binary', 'description_binary', 'status_binary', 'verified', 'followers_count', 'friends_count', 'statuses_count', 'listed_count_binary', 'bot']\n# ## Implementing Different Models\n# ## Decision Tree Classifier\n# In[91]:\nfrom sklearn.tree import DecisionTreeClassifier\nfrom sklearn.metrics import accuracy_score, roc_curve, auc, confusion_matrix, precision_score, recall_score, f1_score\nfrom sklearn.model_selection import train_test_split\nX = training_data[features].iloc[:,:-1]\ny = training_data[features].iloc[:,-1]",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "features",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "features = ['screen_name_binary', 'name_binary', 'description_binary', 'status_binary', 'verified', 'followers_count', 'friends_count', 'statuses_count', 'listed_count_binary', 'bot']\n# ## Implementing Different Models\n# ## Decision Tree Classifier\n# In[91]:\nfrom sklearn.tree import DecisionTreeClassifier\nfrom sklearn.metrics import accuracy_score, roc_curve, auc, confusion_matrix, precision_score, recall_score, f1_score\nfrom sklearn.model_selection import train_test_split\nX = training_data[features].iloc[:,:-1]\ny = training_data[features].iloc[:,-1]\ndt = DecisionTreeClassifier(criterion='entropy', min_samples_leaf=50, min_samples_split=10)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "X = training_data[features].iloc[:,:-1]\ny = training_data[features].iloc[:,-1]\ndt = DecisionTreeClassifier(criterion='entropy', min_samples_leaf=50, min_samples_split=10)\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=101)\ndt = dt.fit(X_train, y_train)\ny_pred_train = dt.predict(X_train)\ny_pred_test = dt.predict(X_test)\n# Confusion matrix\ntrain_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "y = training_data[features].iloc[:,-1]\ndt = DecisionTreeClassifier(criterion='entropy', min_samples_leaf=50, min_samples_split=10)\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=101)\ndt = dt.fit(X_train, y_train)\ny_pred_train = dt.predict(X_train)\ny_pred_test = dt.predict(X_test)\n# Confusion matrix\ntrain_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "dt",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "dt = DecisionTreeClassifier(criterion='entropy', min_samples_leaf=50, min_samples_split=10)\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=101)\ndt = dt.fit(X_train, y_train)\ny_pred_train = dt.predict(X_train)\ny_pred_test = dt.predict(X_test)\n# Confusion matrix\ntrain_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")\nprint(\"Test Confusion Matrix:\\n\", test_cm,\"\\n\")",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "dt",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "dt = dt.fit(X_train, y_train)\ny_pred_train = dt.predict(X_train)\ny_pred_test = dt.predict(X_test)\n# Confusion matrix\ntrain_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")\nprint(\"Test Confusion Matrix:\\n\", test_cm,\"\\n\")\n# Getting performance metrics\ntrain_precision_decisiontree = precision_score(y_train, y_pred_train)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "y_pred_train",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "y_pred_train = dt.predict(X_train)\ny_pred_test = dt.predict(X_test)\n# Confusion matrix\ntrain_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")\nprint(\"Test Confusion Matrix:\\n\", test_cm,\"\\n\")\n# Getting performance metrics\ntrain_precision_decisiontree = precision_score(y_train, y_pred_train)\ntest_precision_decisiontree = precision_score(y_test, y_pred_test)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "y_pred_test",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "y_pred_test = dt.predict(X_test)\n# Confusion matrix\ntrain_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")\nprint(\"Test Confusion Matrix:\\n\", test_cm,\"\\n\")\n# Getting performance metrics\ntrain_precision_decisiontree = precision_score(y_train, y_pred_train)\ntest_precision_decisiontree = precision_score(y_test, y_pred_test)\ntrain_recall_decisiontree = recall_score(y_train, y_pred_train)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "train_cm",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "train_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")\nprint(\"Test Confusion Matrix:\\n\", test_cm,\"\\n\")\n# Getting performance metrics\ntrain_precision_decisiontree = precision_score(y_train, y_pred_train)\ntest_precision_decisiontree = precision_score(y_test, y_pred_test)\ntrain_recall_decisiontree = recall_score(y_train, y_pred_train)\ntest_recall_decisiontree = recall_score(y_test, y_pred_test)\ntrain_f1_score_decisiontree = f1_score(y_train, y_pred_train)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "test_cm",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "test_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")\nprint(\"Test Confusion Matrix:\\n\", test_cm,\"\\n\")\n# Getting performance metrics\ntrain_precision_decisiontree = precision_score(y_train, y_pred_train)\ntest_precision_decisiontree = precision_score(y_test, y_pred_test)\ntrain_recall_decisiontree = recall_score(y_train, y_pred_train)\ntest_recall_decisiontree = recall_score(y_test, y_pred_test)\ntrain_f1_score_decisiontree = f1_score(y_train, y_pred_train)\ntest_f1_score_decisiontree = f1_score(y_test, y_pred_test)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "train_precision_decisiontree",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "train_precision_decisiontree = precision_score(y_train, y_pred_train)\ntest_precision_decisiontree = precision_score(y_test, y_pred_test)\ntrain_recall_decisiontree = recall_score(y_train, y_pred_train)\ntest_recall_decisiontree = recall_score(y_test, y_pred_test)\ntrain_f1_score_decisiontree = f1_score(y_train, y_pred_train)\ntest_f1_score_decisiontree = f1_score(y_test, y_pred_test)\n# Print performance metrics\nprint(f'Train precision: {train_precision_decisiontree:.5f}')\nprint(f'Test precision: {test_precision_decisiontree:.5f}\\n')\nprint(f'Train recall: {train_recall_decisiontree:.5f}')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "test_precision_decisiontree",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "test_precision_decisiontree = precision_score(y_test, y_pred_test)\ntrain_recall_decisiontree = recall_score(y_train, y_pred_train)\ntest_recall_decisiontree = recall_score(y_test, y_pred_test)\ntrain_f1_score_decisiontree = f1_score(y_train, y_pred_train)\ntest_f1_score_decisiontree = f1_score(y_test, y_pred_test)\n# Print performance metrics\nprint(f'Train precision: {train_precision_decisiontree:.5f}')\nprint(f'Test precision: {test_precision_decisiontree:.5f}\\n')\nprint(f'Train recall: {train_recall_decisiontree:.5f}')\nprint(f'Test recall: {test_recall_decisiontree:.5f}\\n')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "train_recall_decisiontree",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "train_recall_decisiontree = recall_score(y_train, y_pred_train)\ntest_recall_decisiontree = recall_score(y_test, y_pred_test)\ntrain_f1_score_decisiontree = f1_score(y_train, y_pred_train)\ntest_f1_score_decisiontree = f1_score(y_test, y_pred_test)\n# Print performance metrics\nprint(f'Train precision: {train_precision_decisiontree:.5f}')\nprint(f'Test precision: {test_precision_decisiontree:.5f}\\n')\nprint(f'Train recall: {train_recall_decisiontree:.5f}')\nprint(f'Test recall: {test_recall_decisiontree:.5f}\\n')\nprint(f'Train F1-score: {train_f1_score_decisiontree:.5f}')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "test_recall_decisiontree",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "test_recall_decisiontree = recall_score(y_test, y_pred_test)\ntrain_f1_score_decisiontree = f1_score(y_train, y_pred_train)\ntest_f1_score_decisiontree = f1_score(y_test, y_pred_test)\n# Print performance metrics\nprint(f'Train precision: {train_precision_decisiontree:.5f}')\nprint(f'Test precision: {test_precision_decisiontree:.5f}\\n')\nprint(f'Train recall: {train_recall_decisiontree:.5f}')\nprint(f'Test recall: {test_recall_decisiontree:.5f}\\n')\nprint(f'Train F1-score: {train_f1_score_decisiontree:.5f}')\nprint(f'Test F1-score: {test_f1_score_decisiontree:.5f}\\n')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "train_f1_score_decisiontree",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "train_f1_score_decisiontree = f1_score(y_train, y_pred_train)\ntest_f1_score_decisiontree = f1_score(y_test, y_pred_test)\n# Print performance metrics\nprint(f'Train precision: {train_precision_decisiontree:.5f}')\nprint(f'Test precision: {test_precision_decisiontree:.5f}\\n')\nprint(f'Train recall: {train_recall_decisiontree:.5f}')\nprint(f'Test recall: {test_recall_decisiontree:.5f}\\n')\nprint(f'Train F1-score: {train_f1_score_decisiontree:.5f}')\nprint(f'Test F1-score: {test_f1_score_decisiontree:.5f}\\n')\n# Getting and Printing the train and test accuracy of the classifier",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "test_f1_score_decisiontree",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "test_f1_score_decisiontree = f1_score(y_test, y_pred_test)\n# Print performance metrics\nprint(f'Train precision: {train_precision_decisiontree:.5f}')\nprint(f'Test precision: {test_precision_decisiontree:.5f}\\n')\nprint(f'Train recall: {train_recall_decisiontree:.5f}')\nprint(f'Test recall: {test_recall_decisiontree:.5f}\\n')\nprint(f'Train F1-score: {train_f1_score_decisiontree:.5f}')\nprint(f'Test F1-score: {test_f1_score_decisiontree:.5f}\\n')\n# Getting and Printing the train and test accuracy of the classifier\ntrain_accuracy_decisiontree = accuracy_score(y_train, y_pred_train)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "train_accuracy_decisiontree",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "train_accuracy_decisiontree = accuracy_score(y_train, y_pred_train)\ntest_accuracy_decisiontree = accuracy_score(y_test, y_pred_test)\nprint(\"Trainig Accuracy: %.5f\" %train_accuracy_decisiontree)\nprint(\"Test Accuracy: %.5f\" %test_accuracy_decisiontree)\n# In[92]:\nsns.set(font_scale=1.5)\nsns.set_style(\"whitegrid\", {'axes.grid' : False})\nscores_train = dt.predict_proba(X_train)\nscores_test = dt.predict_proba(X_test)\ny_scores_train = []",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "test_accuracy_decisiontree",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "test_accuracy_decisiontree = accuracy_score(y_test, y_pred_test)\nprint(\"Trainig Accuracy: %.5f\" %train_accuracy_decisiontree)\nprint(\"Test Accuracy: %.5f\" %test_accuracy_decisiontree)\n# In[92]:\nsns.set(font_scale=1.5)\nsns.set_style(\"whitegrid\", {'axes.grid' : False})\nscores_train = dt.predict_proba(X_train)\nscores_test = dt.predict_proba(X_test)\ny_scores_train = []\ny_scores_test = []",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "scores_train",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "scores_train = dt.predict_proba(X_train)\nscores_test = dt.predict_proba(X_test)\ny_scores_train = []\ny_scores_test = []\nfor i in range(len(scores_train)):\n    y_scores_train.append(scores_train[i][1])\nfor i in range(len(scores_test)):\n    y_scores_test.append(scores_test[i][1])\nfpr_dt_train, tpr_dt_train, _ = roc_curve(y_train, y_scores_train, pos_label=1)\nfpr_dt_test, tpr_dt_test, _ = roc_curve(y_test, y_scores_test, pos_label=1)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "scores_test",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "scores_test = dt.predict_proba(X_test)\ny_scores_train = []\ny_scores_test = []\nfor i in range(len(scores_train)):\n    y_scores_train.append(scores_train[i][1])\nfor i in range(len(scores_test)):\n    y_scores_test.append(scores_test[i][1])\nfpr_dt_train, tpr_dt_train, _ = roc_curve(y_train, y_scores_train, pos_label=1)\nfpr_dt_test, tpr_dt_test, _ = roc_curve(y_test, y_scores_test, pos_label=1)\nplt.plot(fpr_dt_train, tpr_dt_train, color='black', label='Train AUC: %5f' %auc(fpr_dt_train, tpr_dt_train))",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "y_scores_train",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "y_scores_train = []\ny_scores_test = []\nfor i in range(len(scores_train)):\n    y_scores_train.append(scores_train[i][1])\nfor i in range(len(scores_test)):\n    y_scores_test.append(scores_test[i][1])\nfpr_dt_train, tpr_dt_train, _ = roc_curve(y_train, y_scores_train, pos_label=1)\nfpr_dt_test, tpr_dt_test, _ = roc_curve(y_test, y_scores_test, pos_label=1)\nplt.plot(fpr_dt_train, tpr_dt_train, color='black', label='Train AUC: %5f' %auc(fpr_dt_train, tpr_dt_train))\nplt.plot(fpr_dt_test, tpr_dt_test, color='red', ls='--', label='Test AUC: %5f' %auc(fpr_dt_test, tpr_dt_test))",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "y_scores_test",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "y_scores_test = []\nfor i in range(len(scores_train)):\n    y_scores_train.append(scores_train[i][1])\nfor i in range(len(scores_test)):\n    y_scores_test.append(scores_test[i][1])\nfpr_dt_train, tpr_dt_train, _ = roc_curve(y_train, y_scores_train, pos_label=1)\nfpr_dt_test, tpr_dt_test, _ = roc_curve(y_test, y_scores_test, pos_label=1)\nplt.plot(fpr_dt_train, tpr_dt_train, color='black', label='Train AUC: %5f' %auc(fpr_dt_train, tpr_dt_train))\nplt.plot(fpr_dt_test, tpr_dt_test, color='red', ls='--', label='Test AUC: %5f' %auc(fpr_dt_test, tpr_dt_test))\nplt.title(\"Decision Tree ROC Curve\")",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "X = training_data[features].iloc[:,:-1]\ny = training_data[features].iloc[:,-1]\nmnb = MultinomialNB(alpha=0.0009)\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=101)\nmnb = mnb.fit(X_train, y_train)\ny_pred_train = mnb.predict(X_train)\ny_pred_test = mnb.predict(X_test)\n# Confusion matrix\ntrain_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "y = training_data[features].iloc[:,-1]\nmnb = MultinomialNB(alpha=0.0009)\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=101)\nmnb = mnb.fit(X_train, y_train)\ny_pred_train = mnb.predict(X_train)\ny_pred_test = mnb.predict(X_test)\n# Confusion matrix\ntrain_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "mnb",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "mnb = MultinomialNB(alpha=0.0009)\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=101)\nmnb = mnb.fit(X_train, y_train)\ny_pred_train = mnb.predict(X_train)\ny_pred_test = mnb.predict(X_test)\n# Confusion matrix\ntrain_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")\nprint(\"Test Confusion Matrix:\\n\", test_cm,\"\\n\")",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "mnb",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "mnb = mnb.fit(X_train, y_train)\ny_pred_train = mnb.predict(X_train)\ny_pred_test = mnb.predict(X_test)\n# Confusion matrix\ntrain_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")\nprint(\"Test Confusion Matrix:\\n\", test_cm,\"\\n\")\n# Getting performance metrics\ntrain_precision_naive_bayes = precision_score(y_train, y_pred_train)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "y_pred_train",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "y_pred_train = mnb.predict(X_train)\ny_pred_test = mnb.predict(X_test)\n# Confusion matrix\ntrain_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")\nprint(\"Test Confusion Matrix:\\n\", test_cm,\"\\n\")\n# Getting performance metrics\ntrain_precision_naive_bayes = precision_score(y_train, y_pred_train)\ntest_precision_naive_bayes = precision_score(y_test, y_pred_test)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "y_pred_test",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "y_pred_test = mnb.predict(X_test)\n# Confusion matrix\ntrain_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")\nprint(\"Test Confusion Matrix:\\n\", test_cm,\"\\n\")\n# Getting performance metrics\ntrain_precision_naive_bayes = precision_score(y_train, y_pred_train)\ntest_precision_naive_bayes = precision_score(y_test, y_pred_test)\ntrain_recall_naive_bayes = recall_score(y_train, y_pred_train)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "train_cm",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "train_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")\nprint(\"Test Confusion Matrix:\\n\", test_cm,\"\\n\")\n# Getting performance metrics\ntrain_precision_naive_bayes = precision_score(y_train, y_pred_train)\ntest_precision_naive_bayes = precision_score(y_test, y_pred_test)\ntrain_recall_naive_bayes = recall_score(y_train, y_pred_train)\ntest_recall_naive_bayes = recall_score(y_test, y_pred_test)\ntrain_f1_score_naive_bayes = f1_score(y_train, y_pred_train)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "test_cm",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "test_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")\nprint(\"Test Confusion Matrix:\\n\", test_cm,\"\\n\")\n# Getting performance metrics\ntrain_precision_naive_bayes = precision_score(y_train, y_pred_train)\ntest_precision_naive_bayes = precision_score(y_test, y_pred_test)\ntrain_recall_naive_bayes = recall_score(y_train, y_pred_train)\ntest_recall_naive_bayes = recall_score(y_test, y_pred_test)\ntrain_f1_score_naive_bayes = f1_score(y_train, y_pred_train)\ntest_f1_score_naive_bayes = f1_score(y_test, y_pred_test)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "train_precision_naive_bayes",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "train_precision_naive_bayes = precision_score(y_train, y_pred_train)\ntest_precision_naive_bayes = precision_score(y_test, y_pred_test)\ntrain_recall_naive_bayes = recall_score(y_train, y_pred_train)\ntest_recall_naive_bayes = recall_score(y_test, y_pred_test)\ntrain_f1_score_naive_bayes = f1_score(y_train, y_pred_train)\ntest_f1_score_naive_bayes = f1_score(y_test, y_pred_test)\n# Print performance metrics\nprint(f'Train precision: {train_precision_naive_bayes:.5f}')\nprint(f'Test precision: {test_precision_naive_bayes:.5f}\\n')\nprint(f'Train recall: {train_recall_naive_bayes:.5f}')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "test_precision_naive_bayes",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "test_precision_naive_bayes = precision_score(y_test, y_pred_test)\ntrain_recall_naive_bayes = recall_score(y_train, y_pred_train)\ntest_recall_naive_bayes = recall_score(y_test, y_pred_test)\ntrain_f1_score_naive_bayes = f1_score(y_train, y_pred_train)\ntest_f1_score_naive_bayes = f1_score(y_test, y_pred_test)\n# Print performance metrics\nprint(f'Train precision: {train_precision_naive_bayes:.5f}')\nprint(f'Test precision: {test_precision_naive_bayes:.5f}\\n')\nprint(f'Train recall: {train_recall_naive_bayes:.5f}')\nprint(f'Test recall: {test_recall_naive_bayes:.5f}\\n')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "train_recall_naive_bayes",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "train_recall_naive_bayes = recall_score(y_train, y_pred_train)\ntest_recall_naive_bayes = recall_score(y_test, y_pred_test)\ntrain_f1_score_naive_bayes = f1_score(y_train, y_pred_train)\ntest_f1_score_naive_bayes = f1_score(y_test, y_pred_test)\n# Print performance metrics\nprint(f'Train precision: {train_precision_naive_bayes:.5f}')\nprint(f'Test precision: {test_precision_naive_bayes:.5f}\\n')\nprint(f'Train recall: {train_recall_naive_bayes:.5f}')\nprint(f'Test recall: {test_recall_naive_bayes:.5f}\\n')\nprint(f'Train F1-score: {train_f1_score_naive_bayes:.5f}')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "test_recall_naive_bayes",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "test_recall_naive_bayes = recall_score(y_test, y_pred_test)\ntrain_f1_score_naive_bayes = f1_score(y_train, y_pred_train)\ntest_f1_score_naive_bayes = f1_score(y_test, y_pred_test)\n# Print performance metrics\nprint(f'Train precision: {train_precision_naive_bayes:.5f}')\nprint(f'Test precision: {test_precision_naive_bayes:.5f}\\n')\nprint(f'Train recall: {train_recall_naive_bayes:.5f}')\nprint(f'Test recall: {test_recall_naive_bayes:.5f}\\n')\nprint(f'Train F1-score: {train_f1_score_naive_bayes:.5f}')\nprint(f'Test F1-score: {test_f1_score_naive_bayes:.5f}\\n')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "train_f1_score_naive_bayes",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "train_f1_score_naive_bayes = f1_score(y_train, y_pred_train)\ntest_f1_score_naive_bayes = f1_score(y_test, y_pred_test)\n# Print performance metrics\nprint(f'Train precision: {train_precision_naive_bayes:.5f}')\nprint(f'Test precision: {test_precision_naive_bayes:.5f}\\n')\nprint(f'Train recall: {train_recall_naive_bayes:.5f}')\nprint(f'Test recall: {test_recall_naive_bayes:.5f}\\n')\nprint(f'Train F1-score: {train_f1_score_naive_bayes:.5f}')\nprint(f'Test F1-score: {test_f1_score_naive_bayes:.5f}\\n')\n# Getting and Printing the train and test accuracy of the classifier",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "test_f1_score_naive_bayes",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "test_f1_score_naive_bayes = f1_score(y_test, y_pred_test)\n# Print performance metrics\nprint(f'Train precision: {train_precision_naive_bayes:.5f}')\nprint(f'Test precision: {test_precision_naive_bayes:.5f}\\n')\nprint(f'Train recall: {train_recall_naive_bayes:.5f}')\nprint(f'Test recall: {test_recall_naive_bayes:.5f}\\n')\nprint(f'Train F1-score: {train_f1_score_naive_bayes:.5f}')\nprint(f'Test F1-score: {test_f1_score_naive_bayes:.5f}\\n')\n# Getting and Printing the train and test accuracy of the classifier\ntrain_accuracy_naive_bayes = accuracy_score(y_train, y_pred_train)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "train_accuracy_naive_bayes",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "train_accuracy_naive_bayes = accuracy_score(y_train, y_pred_train)\ntest_accuracy_naive_bayes = accuracy_score(y_test, y_pred_test)\nprint(\"Trainig Accuracy: %.5f\" %train_accuracy_naive_bayes)\nprint(\"Test Accuracy: %.5f\" %test_accuracy_naive_bayes)\n# In[94]:\nsns.set_style(\"whitegrid\", {'axes.grid' : False})\nscores_train = mnb.predict_proba(X_train)\nscores_test = mnb.predict_proba(X_test)\ny_scores_train = []\ny_scores_test = []",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "test_accuracy_naive_bayes",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "test_accuracy_naive_bayes = accuracy_score(y_test, y_pred_test)\nprint(\"Trainig Accuracy: %.5f\" %train_accuracy_naive_bayes)\nprint(\"Test Accuracy: %.5f\" %test_accuracy_naive_bayes)\n# In[94]:\nsns.set_style(\"whitegrid\", {'axes.grid' : False})\nscores_train = mnb.predict_proba(X_train)\nscores_test = mnb.predict_proba(X_test)\ny_scores_train = []\ny_scores_test = []\nfor i in range(len(scores_train)):",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "scores_train",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "scores_train = mnb.predict_proba(X_train)\nscores_test = mnb.predict_proba(X_test)\ny_scores_train = []\ny_scores_test = []\nfor i in range(len(scores_train)):\n    y_scores_train.append(scores_train[i][1])\nfor i in range(len(scores_test)):\n    y_scores_test.append(scores_test[i][1])\nfpr_mnb_train, tpr_mnb_train, _ = roc_curve(y_train, y_scores_train, pos_label=1)\nfpr_mnb_test, tpr_mnb_test, _ = roc_curve(y_test, y_scores_test, pos_label=1)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "scores_test",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "scores_test = mnb.predict_proba(X_test)\ny_scores_train = []\ny_scores_test = []\nfor i in range(len(scores_train)):\n    y_scores_train.append(scores_train[i][1])\nfor i in range(len(scores_test)):\n    y_scores_test.append(scores_test[i][1])\nfpr_mnb_train, tpr_mnb_train, _ = roc_curve(y_train, y_scores_train, pos_label=1)\nfpr_mnb_test, tpr_mnb_test, _ = roc_curve(y_test, y_scores_test, pos_label=1)\nplt.plot(fpr_mnb_train, tpr_mnb_train, color='darkblue', label='Train AUC: %5f' %auc(fpr_mnb_train, tpr_mnb_train))",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "y_scores_train",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "y_scores_train = []\ny_scores_test = []\nfor i in range(len(scores_train)):\n    y_scores_train.append(scores_train[i][1])\nfor i in range(len(scores_test)):\n    y_scores_test.append(scores_test[i][1])\nfpr_mnb_train, tpr_mnb_train, _ = roc_curve(y_train, y_scores_train, pos_label=1)\nfpr_mnb_test, tpr_mnb_test, _ = roc_curve(y_test, y_scores_test, pos_label=1)\nplt.plot(fpr_mnb_train, tpr_mnb_train, color='darkblue', label='Train AUC: %5f' %auc(fpr_mnb_train, tpr_mnb_train))\nplt.plot(fpr_mnb_test, tpr_mnb_test, color='red', ls='--', label='Test AUC: %5f' %auc(fpr_mnb_test, tpr_mnb_test))",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "y_scores_test",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "y_scores_test = []\nfor i in range(len(scores_train)):\n    y_scores_train.append(scores_train[i][1])\nfor i in range(len(scores_test)):\n    y_scores_test.append(scores_test[i][1])\nfpr_mnb_train, tpr_mnb_train, _ = roc_curve(y_train, y_scores_train, pos_label=1)\nfpr_mnb_test, tpr_mnb_test, _ = roc_curve(y_test, y_scores_test, pos_label=1)\nplt.plot(fpr_mnb_train, tpr_mnb_train, color='darkblue', label='Train AUC: %5f' %auc(fpr_mnb_train, tpr_mnb_train))\nplt.plot(fpr_mnb_test, tpr_mnb_test, color='red', ls='--', label='Test AUC: %5f' %auc(fpr_mnb_test, tpr_mnb_test))\nplt.title(\"Multinomial Naive Bayes ROC Curve\")",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "X = training_data[features].iloc[:,:-1]\ny = training_data[features].iloc[:,-1]\nrf = RandomForestClassifier(criterion='entropy', min_samples_leaf=100, min_samples_split=20)\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=101)\nrf = rf.fit(X_train, y_train)\ny_pred_train = rf.predict(X_train)\ny_pred_test = rf.predict(X_test)\n# Confusion matrix\ntrain_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "y = training_data[features].iloc[:,-1]\nrf = RandomForestClassifier(criterion='entropy', min_samples_leaf=100, min_samples_split=20)\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=101)\nrf = rf.fit(X_train, y_train)\ny_pred_train = rf.predict(X_train)\ny_pred_test = rf.predict(X_test)\n# Confusion matrix\ntrain_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "rf",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "rf = RandomForestClassifier(criterion='entropy', min_samples_leaf=100, min_samples_split=20)\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=101)\nrf = rf.fit(X_train, y_train)\ny_pred_train = rf.predict(X_train)\ny_pred_test = rf.predict(X_test)\n# Confusion matrix\ntrain_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")\nprint(\"Test Confusion Matrix:\\n\", test_cm,\"\\n\")",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "rf",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "rf = rf.fit(X_train, y_train)\ny_pred_train = rf.predict(X_train)\ny_pred_test = rf.predict(X_test)\n# Confusion matrix\ntrain_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")\nprint(\"Test Confusion Matrix:\\n\", test_cm,\"\\n\")\n# Print performance metrics\ntrain_precision_random_forest = precision_score(y_train, y_pred_train)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "y_pred_train",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "y_pred_train = rf.predict(X_train)\ny_pred_test = rf.predict(X_test)\n# Confusion matrix\ntrain_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")\nprint(\"Test Confusion Matrix:\\n\", test_cm,\"\\n\")\n# Print performance metrics\ntrain_precision_random_forest = precision_score(y_train, y_pred_train)\ntest_precision_random_forest = precision_score(y_test, y_pred_test)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "y_pred_test",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "y_pred_test = rf.predict(X_test)\n# Confusion matrix\ntrain_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")\nprint(\"Test Confusion Matrix:\\n\", test_cm,\"\\n\")\n# Print performance metrics\ntrain_precision_random_forest = precision_score(y_train, y_pred_train)\ntest_precision_random_forest = precision_score(y_test, y_pred_test)\ntrain_recall_random_forest = recall_score(y_train, y_pred_train)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "train_cm",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "train_cm = confusion_matrix(y_train, y_pred_train)\ntest_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")\nprint(\"Test Confusion Matrix:\\n\", test_cm,\"\\n\")\n# Print performance metrics\ntrain_precision_random_forest = precision_score(y_train, y_pred_train)\ntest_precision_random_forest = precision_score(y_test, y_pred_test)\ntrain_recall_random_forest = recall_score(y_train, y_pred_train)\ntest_recall_random_forest = recall_score(y_test, y_pred_test)\ntrain_f1_score_random_forest = f1_score(y_train, y_pred_train)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "test_cm",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "test_cm = confusion_matrix(y_test, y_pred_test)\nprint(\"Train Confusion Matrix:\\n\", train_cm,\"\\n\")\nprint(\"Test Confusion Matrix:\\n\", test_cm,\"\\n\")\n# Print performance metrics\ntrain_precision_random_forest = precision_score(y_train, y_pred_train)\ntest_precision_random_forest = precision_score(y_test, y_pred_test)\ntrain_recall_random_forest = recall_score(y_train, y_pred_train)\ntest_recall_random_forest = recall_score(y_test, y_pred_test)\ntrain_f1_score_random_forest = f1_score(y_train, y_pred_train)\ntest_f1_score_random_forest = f1_score(y_test, y_pred_test)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "train_precision_random_forest",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "train_precision_random_forest = precision_score(y_train, y_pred_train)\ntest_precision_random_forest = precision_score(y_test, y_pred_test)\ntrain_recall_random_forest = recall_score(y_train, y_pred_train)\ntest_recall_random_forest = recall_score(y_test, y_pred_test)\ntrain_f1_score_random_forest = f1_score(y_train, y_pred_train)\ntest_f1_score_random_forest = f1_score(y_test, y_pred_test)\n# Print performance metrics\nprint(f'Train precision: {train_precision_random_forest:.5f}')\nprint(f'Test precision: {test_precision_random_forest:.5f}\\n')\nprint(f'Train recall: {train_recall_random_forest:.5f}')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "test_precision_random_forest",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "test_precision_random_forest = precision_score(y_test, y_pred_test)\ntrain_recall_random_forest = recall_score(y_train, y_pred_train)\ntest_recall_random_forest = recall_score(y_test, y_pred_test)\ntrain_f1_score_random_forest = f1_score(y_train, y_pred_train)\ntest_f1_score_random_forest = f1_score(y_test, y_pred_test)\n# Print performance metrics\nprint(f'Train precision: {train_precision_random_forest:.5f}')\nprint(f'Test precision: {test_precision_random_forest:.5f}\\n')\nprint(f'Train recall: {train_recall_random_forest:.5f}')\nprint(f'Test recall: {test_recall_random_forest:.5f}\\n')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "train_recall_random_forest",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "train_recall_random_forest = recall_score(y_train, y_pred_train)\ntest_recall_random_forest = recall_score(y_test, y_pred_test)\ntrain_f1_score_random_forest = f1_score(y_train, y_pred_train)\ntest_f1_score_random_forest = f1_score(y_test, y_pred_test)\n# Print performance metrics\nprint(f'Train precision: {train_precision_random_forest:.5f}')\nprint(f'Test precision: {test_precision_random_forest:.5f}\\n')\nprint(f'Train recall: {train_recall_random_forest:.5f}')\nprint(f'Test recall: {test_recall_random_forest:.5f}\\n')\nprint(f'Train F1-score: {train_f1_score_random_forest:.5f}')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "test_recall_random_forest",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "test_recall_random_forest = recall_score(y_test, y_pred_test)\ntrain_f1_score_random_forest = f1_score(y_train, y_pred_train)\ntest_f1_score_random_forest = f1_score(y_test, y_pred_test)\n# Print performance metrics\nprint(f'Train precision: {train_precision_random_forest:.5f}')\nprint(f'Test precision: {test_precision_random_forest:.5f}\\n')\nprint(f'Train recall: {train_recall_random_forest:.5f}')\nprint(f'Test recall: {test_recall_random_forest:.5f}\\n')\nprint(f'Train F1-score: {train_f1_score_random_forest:.5f}')\nprint(f'Test F1-score: {test_f1_score_random_forest:.5f}\\n')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "train_f1_score_random_forest",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "train_f1_score_random_forest = f1_score(y_train, y_pred_train)\ntest_f1_score_random_forest = f1_score(y_test, y_pred_test)\n# Print performance metrics\nprint(f'Train precision: {train_precision_random_forest:.5f}')\nprint(f'Test precision: {test_precision_random_forest:.5f}\\n')\nprint(f'Train recall: {train_recall_random_forest:.5f}')\nprint(f'Test recall: {test_recall_random_forest:.5f}\\n')\nprint(f'Train F1-score: {train_f1_score_random_forest:.5f}')\nprint(f'Test F1-score: {test_f1_score_random_forest:.5f}\\n')\n# Getting and Printing the train and test accuracy of the classifier",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "test_f1_score_random_forest",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "test_f1_score_random_forest = f1_score(y_test, y_pred_test)\n# Print performance metrics\nprint(f'Train precision: {train_precision_random_forest:.5f}')\nprint(f'Test precision: {test_precision_random_forest:.5f}\\n')\nprint(f'Train recall: {train_recall_random_forest:.5f}')\nprint(f'Test recall: {test_recall_random_forest:.5f}\\n')\nprint(f'Train F1-score: {train_f1_score_random_forest:.5f}')\nprint(f'Test F1-score: {test_f1_score_random_forest:.5f}\\n')\n# Getting and Printing the train and test accuracy of the classifier\ntrain_accuracy_random_forest = accuracy_score(y_train, y_pred_train)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "train_accuracy_random_forest",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "train_accuracy_random_forest = accuracy_score(y_train, y_pred_train)\ntest_accuracy_random_forest = accuracy_score(y_test, y_pred_test)\nprint(\"Trainig Accuracy: %.5f\" %train_accuracy_random_forest)\nprint(\"Test Accuracy: %.5f\" %test_accuracy_random_forest)\n# In[96]:\nsns.set_style(\"whitegrid\", {'axes.grid' : False})\nscores_train = rf.predict_proba(X_train)\nscores_test = rf.predict_proba(X_test)\ny_scores_train = []\ny_scores_test = []",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "test_accuracy_random_forest",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "test_accuracy_random_forest = accuracy_score(y_test, y_pred_test)\nprint(\"Trainig Accuracy: %.5f\" %train_accuracy_random_forest)\nprint(\"Test Accuracy: %.5f\" %test_accuracy_random_forest)\n# In[96]:\nsns.set_style(\"whitegrid\", {'axes.grid' : False})\nscores_train = rf.predict_proba(X_train)\nscores_test = rf.predict_proba(X_test)\ny_scores_train = []\ny_scores_test = []\nfor i in range(len(scores_train)):",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "scores_train",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "scores_train = rf.predict_proba(X_train)\nscores_test = rf.predict_proba(X_test)\ny_scores_train = []\ny_scores_test = []\nfor i in range(len(scores_train)):\n    y_scores_train.append(scores_train[i][1])\nfor i in range(len(scores_test)):\n    y_scores_test.append(scores_test[i][1])\nfpr_rf_train, tpr_rf_train, _ = roc_curve(y_train, y_scores_train, pos_label=1)\nfpr_rf_test, tpr_rf_test, _ = roc_curve(y_test, y_scores_test, pos_label=1)",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "scores_test",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "scores_test = rf.predict_proba(X_test)\ny_scores_train = []\ny_scores_test = []\nfor i in range(len(scores_train)):\n    y_scores_train.append(scores_train[i][1])\nfor i in range(len(scores_test)):\n    y_scores_test.append(scores_test[i][1])\nfpr_rf_train, tpr_rf_train, _ = roc_curve(y_train, y_scores_train, pos_label=1)\nfpr_rf_test, tpr_rf_test, _ = roc_curve(y_test, y_scores_test, pos_label=1)\nplt.plot(fpr_rf_train, tpr_rf_train, color='darkblue', label='Train AUC: %5f' %auc(fpr_rf_train, tpr_rf_train))",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "y_scores_train",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "y_scores_train = []\ny_scores_test = []\nfor i in range(len(scores_train)):\n    y_scores_train.append(scores_train[i][1])\nfor i in range(len(scores_test)):\n    y_scores_test.append(scores_test[i][1])\nfpr_rf_train, tpr_rf_train, _ = roc_curve(y_train, y_scores_train, pos_label=1)\nfpr_rf_test, tpr_rf_test, _ = roc_curve(y_test, y_scores_test, pos_label=1)\nplt.plot(fpr_rf_train, tpr_rf_train, color='darkblue', label='Train AUC: %5f' %auc(fpr_rf_train, tpr_rf_train))\nplt.plot(fpr_rf_test, tpr_rf_test, color='red', ls='--', label='Test AUC: %5f' %auc(fpr_rf_test, tpr_rf_test))",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "y_scores_test",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "y_scores_test = []\nfor i in range(len(scores_train)):\n    y_scores_train.append(scores_train[i][1])\nfor i in range(len(scores_test)):\n    y_scores_test.append(scores_test[i][1])\nfpr_rf_train, tpr_rf_train, _ = roc_curve(y_train, y_scores_train, pos_label=1)\nfpr_rf_test, tpr_rf_test, _ = roc_curve(y_test, y_scores_test, pos_label=1)\nplt.plot(fpr_rf_train, tpr_rf_train, color='darkblue', label='Train AUC: %5f' %auc(fpr_rf_train, tpr_rf_train))\nplt.plot(fpr_rf_test, tpr_rf_test, color='red', ls='--', label='Test AUC: %5f' %auc(fpr_rf_test, tpr_rf_test))\nplt.title(\"Random ForestROC Curve\")",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "scores",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "scores = np.linspace(start=0, stop=1, num=len(y_true))\nfpr_botc_train, tpr_botc_train, threshold = metrics.roc_curve(y_pred_train, scores, pos_label=0)\n#Train ROC\nplt.subplot(2,2,1)\nplt.plot(fpr_botc_train, tpr_botc_train, label='Our Classifier AUC: %5f' % metrics.auc(fpr_botc_train,tpr_botc_train), color='darkblue')\nplt.plot(fpr_rf_train, tpr_rf_train, label='Random Forest AUC: %5f' %auc(fpr_rf_train, tpr_rf_train))\nplt.plot(fpr_dt_train, tpr_dt_train, label='Decision Tree AUC: %5f' %auc(fpr_dt_train, tpr_dt_train))\nplt.plot(fpr_mnb_train, tpr_mnb_train, label='Multinomial Naive Bayes AUC: %5f' %auc(fpr_mnb_train, tpr_mnb_train))\nplt.title(\"Training Set ROC Curve\", fontname=\"Times New Roman\", fontsize=29, fontweight=\"bold\")\nplt.xlabel(\"False Positive Rate (FPR)\", fontname=\"Times New Roman\", fontsize=19, fontweight=\"bold\")",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "scores",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "scores = np.linspace(start=0, stop=1, num=len(y_true))\nfpr_botc_test, tpr_botc_test, threshold = metrics.roc_curve(y_pred_test, scores, pos_label=0)\n#Test ROC\nplt.subplot(2,2,1)\nplt.plot(fpr_botc_test,tpr_botc_test, label='Our Classifier AUC: %5f' %metrics.auc(fpr_botc_test,tpr_botc_test), color='darkblue')\nplt.plot(fpr_rf_test, tpr_rf_test, label='Random Forest AUC: %5f' %auc(fpr_rf_test, tpr_rf_test))\nplt.plot(fpr_dt_test, tpr_dt_test, label='Decision Tree AUC: %5f' %auc(fpr_dt_test, tpr_dt_test))\nplt.plot(fpr_mnb_test, tpr_mnb_test, label='Multinomial Naive Bayes AUC: %5f' %auc(fpr_mnb_test, tpr_mnb_test))\nplt.title(\"Test Set ROC Curve\", fontname=\"Times New Roman\", fontsize=29, fontweight=\"bold\")\nplt.xlabel(\"False Positive Rate (FPR)\", fontname=\"Times New Roman\", fontsize=19, fontweight=\"bold\")",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "barWidth",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "barWidth = 0.2\nfig = plt.subplots(figsize =(50,26))\n# set height of bar\nOur_Classifier = [train_accuracy, train_precision, train_recall, train_f1_score]\nRandom_Forest = [train_accuracy_random_forest, train_precision_random_forest, train_recall_random_forest, train_f1_score_random_forest]\nDecision_Tree = [train_accuracy_decisiontree, train_precision_decisiontree, train_recall_decisiontree, train_f1_score_decisiontree]\nNaive_Bayes = [train_accuracy_naive_bayes, train_precision_naive_bayes, train_recall_naive_bayes, train_f1_score_naive_bayes]\n# Set position of bar on X axis\nbr1 = np.arange(len(Our_Classifier))\nbr2 = [x + barWidth for x in br1]",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "fig",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "fig = plt.subplots(figsize =(50,26))\n# set height of bar\nOur_Classifier = [train_accuracy, train_precision, train_recall, train_f1_score]\nRandom_Forest = [train_accuracy_random_forest, train_precision_random_forest, train_recall_random_forest, train_f1_score_random_forest]\nDecision_Tree = [train_accuracy_decisiontree, train_precision_decisiontree, train_recall_decisiontree, train_f1_score_decisiontree]\nNaive_Bayes = [train_accuracy_naive_bayes, train_precision_naive_bayes, train_recall_naive_bayes, train_f1_score_naive_bayes]\n# Set position of bar on X axis\nbr1 = np.arange(len(Our_Classifier))\nbr2 = [x + barWidth for x in br1]\nbr3 = [x + barWidth for x in br2]",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "Our_Classifier",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "Our_Classifier = [train_accuracy, train_precision, train_recall, train_f1_score]\nRandom_Forest = [train_accuracy_random_forest, train_precision_random_forest, train_recall_random_forest, train_f1_score_random_forest]\nDecision_Tree = [train_accuracy_decisiontree, train_precision_decisiontree, train_recall_decisiontree, train_f1_score_decisiontree]\nNaive_Bayes = [train_accuracy_naive_bayes, train_precision_naive_bayes, train_recall_naive_bayes, train_f1_score_naive_bayes]\n# Set position of bar on X axis\nbr1 = np.arange(len(Our_Classifier))\nbr2 = [x + barWidth for x in br1]\nbr3 = [x + barWidth for x in br2]\nbr4 = [x + barWidth for x in br3]\n# Make the plot",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "Random_Forest",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "Random_Forest = [train_accuracy_random_forest, train_precision_random_forest, train_recall_random_forest, train_f1_score_random_forest]\nDecision_Tree = [train_accuracy_decisiontree, train_precision_decisiontree, train_recall_decisiontree, train_f1_score_decisiontree]\nNaive_Bayes = [train_accuracy_naive_bayes, train_precision_naive_bayes, train_recall_naive_bayes, train_f1_score_naive_bayes]\n# Set position of bar on X axis\nbr1 = np.arange(len(Our_Classifier))\nbr2 = [x + barWidth for x in br1]\nbr3 = [x + barWidth for x in br2]\nbr4 = [x + barWidth for x in br3]\n# Make the plot\nplt.bar(br1, Our_Classifier, color ='r', width = barWidth, edgecolor ='grey', label ='Our Classifier')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "Decision_Tree",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "Decision_Tree = [train_accuracy_decisiontree, train_precision_decisiontree, train_recall_decisiontree, train_f1_score_decisiontree]\nNaive_Bayes = [train_accuracy_naive_bayes, train_precision_naive_bayes, train_recall_naive_bayes, train_f1_score_naive_bayes]\n# Set position of bar on X axis\nbr1 = np.arange(len(Our_Classifier))\nbr2 = [x + barWidth for x in br1]\nbr3 = [x + barWidth for x in br2]\nbr4 = [x + barWidth for x in br3]\n# Make the plot\nplt.bar(br1, Our_Classifier, color ='r', width = barWidth, edgecolor ='grey', label ='Our Classifier')\nplt.bar(br2, Random_Forest, color ='g', width = barWidth, edgecolor ='grey', label ='Random Forest')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "Naive_Bayes",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "Naive_Bayes = [train_accuracy_naive_bayes, train_precision_naive_bayes, train_recall_naive_bayes, train_f1_score_naive_bayes]\n# Set position of bar on X axis\nbr1 = np.arange(len(Our_Classifier))\nbr2 = [x + barWidth for x in br1]\nbr3 = [x + barWidth for x in br2]\nbr4 = [x + barWidth for x in br3]\n# Make the plot\nplt.bar(br1, Our_Classifier, color ='r', width = barWidth, edgecolor ='grey', label ='Our Classifier')\nplt.bar(br2, Random_Forest, color ='g', width = barWidth, edgecolor ='grey', label ='Random Forest')\nplt.bar(br3, Decision_Tree, color ='b', width = barWidth, edgecolor ='grey', label ='Decision Tree')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "br1",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "br1 = np.arange(len(Our_Classifier))\nbr2 = [x + barWidth for x in br1]\nbr3 = [x + barWidth for x in br2]\nbr4 = [x + barWidth for x in br3]\n# Make the plot\nplt.bar(br1, Our_Classifier, color ='r', width = barWidth, edgecolor ='grey', label ='Our Classifier')\nplt.bar(br2, Random_Forest, color ='g', width = barWidth, edgecolor ='grey', label ='Random Forest')\nplt.bar(br3, Decision_Tree, color ='b', width = barWidth, edgecolor ='grey', label ='Decision Tree')\nplt.bar(br4, Naive_Bayes, color ='k', width = barWidth, edgecolor ='grey', label ='Mutinomial Naive Bayes')\n# Adding x-axis and y-axis labels, xticks, yticks and title",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "br2",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "br2 = [x + barWidth for x in br1]\nbr3 = [x + barWidth for x in br2]\nbr4 = [x + barWidth for x in br3]\n# Make the plot\nplt.bar(br1, Our_Classifier, color ='r', width = barWidth, edgecolor ='grey', label ='Our Classifier')\nplt.bar(br2, Random_Forest, color ='g', width = barWidth, edgecolor ='grey', label ='Random Forest')\nplt.bar(br3, Decision_Tree, color ='b', width = barWidth, edgecolor ='grey', label ='Decision Tree')\nplt.bar(br4, Naive_Bayes, color ='k', width = barWidth, edgecolor ='grey', label ='Mutinomial Naive Bayes')\n# Adding x-axis and y-axis labels, xticks, yticks and title\nplt.xlabel('\\nEvaluation Metrics', fontname=\"Times New Roman\", fontsize=88, fontweight=\"bold\")",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "br3",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "br3 = [x + barWidth for x in br2]\nbr4 = [x + barWidth for x in br3]\n# Make the plot\nplt.bar(br1, Our_Classifier, color ='r', width = barWidth, edgecolor ='grey', label ='Our Classifier')\nplt.bar(br2, Random_Forest, color ='g', width = barWidth, edgecolor ='grey', label ='Random Forest')\nplt.bar(br3, Decision_Tree, color ='b', width = barWidth, edgecolor ='grey', label ='Decision Tree')\nplt.bar(br4, Naive_Bayes, color ='k', width = barWidth, edgecolor ='grey', label ='Mutinomial Naive Bayes')\n# Adding x-axis and y-axis labels, xticks, yticks and title\nplt.xlabel('\\nEvaluation Metrics', fontname=\"Times New Roman\", fontsize=88, fontweight=\"bold\")\nplt.ylabel('Score\\n', fontname=\"Times New Roman\", fontsize=88, fontweight=\"bold\")",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "br4",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "br4 = [x + barWidth for x in br3]\n# Make the plot\nplt.bar(br1, Our_Classifier, color ='r', width = barWidth, edgecolor ='grey', label ='Our Classifier')\nplt.bar(br2, Random_Forest, color ='g', width = barWidth, edgecolor ='grey', label ='Random Forest')\nplt.bar(br3, Decision_Tree, color ='b', width = barWidth, edgecolor ='grey', label ='Decision Tree')\nplt.bar(br4, Naive_Bayes, color ='k', width = barWidth, edgecolor ='grey', label ='Mutinomial Naive Bayes')\n# Adding x-axis and y-axis labels, xticks, yticks and title\nplt.xlabel('\\nEvaluation Metrics', fontname=\"Times New Roman\", fontsize=88, fontweight=\"bold\")\nplt.ylabel('Score\\n', fontname=\"Times New Roman\", fontsize=88, fontweight=\"bold\")\nplt.title('Training Performance Metrics Comparison of All the Models\\n', fontname=\"Times New Roman\", fontsize=111, fontweight=\"bold\")",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "barWidth",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "barWidth = 0.2\nfig = plt.subplots(figsize =(50,26))\n# set height of bar\nOur_Classifier = [test_accuracy, test_precision, test_recall, test_f1_score]\nRandom_Forest = [test_accuracy_random_forest, test_precision_random_forest, test_recall_random_forest, test_f1_score_random_forest]\nDecision_Tree = [test_accuracy_decisiontree, test_precision_decisiontree, test_recall_decisiontree, test_f1_score_decisiontree]\nNaive_Bayes = [test_accuracy_naive_bayes, test_precision_naive_bayes, test_recall_naive_bayes, test_f1_score_naive_bayes]\n# Set position of bar on X axis\nbr1 = np.arange(len(Our_Classifier))\nbr2 = [x + barWidth for x in br1]",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "fig",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "fig = plt.subplots(figsize =(50,26))\n# set height of bar\nOur_Classifier = [test_accuracy, test_precision, test_recall, test_f1_score]\nRandom_Forest = [test_accuracy_random_forest, test_precision_random_forest, test_recall_random_forest, test_f1_score_random_forest]\nDecision_Tree = [test_accuracy_decisiontree, test_precision_decisiontree, test_recall_decisiontree, test_f1_score_decisiontree]\nNaive_Bayes = [test_accuracy_naive_bayes, test_precision_naive_bayes, test_recall_naive_bayes, test_f1_score_naive_bayes]\n# Set position of bar on X axis\nbr1 = np.arange(len(Our_Classifier))\nbr2 = [x + barWidth for x in br1]\nbr3 = [x + barWidth for x in br2]",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "Our_Classifier",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "Our_Classifier = [test_accuracy, test_precision, test_recall, test_f1_score]\nRandom_Forest = [test_accuracy_random_forest, test_precision_random_forest, test_recall_random_forest, test_f1_score_random_forest]\nDecision_Tree = [test_accuracy_decisiontree, test_precision_decisiontree, test_recall_decisiontree, test_f1_score_decisiontree]\nNaive_Bayes = [test_accuracy_naive_bayes, test_precision_naive_bayes, test_recall_naive_bayes, test_f1_score_naive_bayes]\n# Set position of bar on X axis\nbr1 = np.arange(len(Our_Classifier))\nbr2 = [x + barWidth for x in br1]\nbr3 = [x + barWidth for x in br2]\nbr4 = [x + barWidth for x in br3]\n# Make the plot",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "Random_Forest",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "Random_Forest = [test_accuracy_random_forest, test_precision_random_forest, test_recall_random_forest, test_f1_score_random_forest]\nDecision_Tree = [test_accuracy_decisiontree, test_precision_decisiontree, test_recall_decisiontree, test_f1_score_decisiontree]\nNaive_Bayes = [test_accuracy_naive_bayes, test_precision_naive_bayes, test_recall_naive_bayes, test_f1_score_naive_bayes]\n# Set position of bar on X axis\nbr1 = np.arange(len(Our_Classifier))\nbr2 = [x + barWidth for x in br1]\nbr3 = [x + barWidth for x in br2]\nbr4 = [x + barWidth for x in br3]\n# Make the plot\nplt.bar(br1, Our_Classifier, color ='r', width = barWidth, edgecolor ='grey', label ='Our Classifier')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "Decision_Tree",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "Decision_Tree = [test_accuracy_decisiontree, test_precision_decisiontree, test_recall_decisiontree, test_f1_score_decisiontree]\nNaive_Bayes = [test_accuracy_naive_bayes, test_precision_naive_bayes, test_recall_naive_bayes, test_f1_score_naive_bayes]\n# Set position of bar on X axis\nbr1 = np.arange(len(Our_Classifier))\nbr2 = [x + barWidth for x in br1]\nbr3 = [x + barWidth for x in br2]\nbr4 = [x + barWidth for x in br3]\n# Make the plot\nplt.bar(br1, Our_Classifier, color ='r', width = barWidth, edgecolor ='grey', label ='Our Classifier')\nplt.bar(br2, Random_Forest, color ='g', width = barWidth, edgecolor ='grey', label ='Random Forest')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "Naive_Bayes",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "Naive_Bayes = [test_accuracy_naive_bayes, test_precision_naive_bayes, test_recall_naive_bayes, test_f1_score_naive_bayes]\n# Set position of bar on X axis\nbr1 = np.arange(len(Our_Classifier))\nbr2 = [x + barWidth for x in br1]\nbr3 = [x + barWidth for x in br2]\nbr4 = [x + barWidth for x in br3]\n# Make the plot\nplt.bar(br1, Our_Classifier, color ='r', width = barWidth, edgecolor ='grey', label ='Our Classifier')\nplt.bar(br2, Random_Forest, color ='g', width = barWidth, edgecolor ='grey', label ='Random Forest')\nplt.bar(br3, Decision_Tree, color ='b', width = barWidth, edgecolor ='grey', label ='Decision Tree')",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "br1",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "br1 = np.arange(len(Our_Classifier))\nbr2 = [x + barWidth for x in br1]\nbr3 = [x + barWidth for x in br2]\nbr4 = [x + barWidth for x in br3]\n# Make the plot\nplt.bar(br1, Our_Classifier, color ='r', width = barWidth, edgecolor ='grey', label ='Our Classifier')\nplt.bar(br2, Random_Forest, color ='g', width = barWidth, edgecolor ='grey', label ='Random Forest')\nplt.bar(br3, Decision_Tree, color ='b', width = barWidth, edgecolor ='grey', label ='Decision Tree')\nplt.bar(br4, Naive_Bayes, color ='k', width = barWidth, edgecolor ='grey', label ='Mutinomial Naive Bayes')\n# Adding x-axis and y-axis labels, xticks, yticks and title",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "br2",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "br2 = [x + barWidth for x in br1]\nbr3 = [x + barWidth for x in br2]\nbr4 = [x + barWidth for x in br3]\n# Make the plot\nplt.bar(br1, Our_Classifier, color ='r', width = barWidth, edgecolor ='grey', label ='Our Classifier')\nplt.bar(br2, Random_Forest, color ='g', width = barWidth, edgecolor ='grey', label ='Random Forest')\nplt.bar(br3, Decision_Tree, color ='b', width = barWidth, edgecolor ='grey', label ='Decision Tree')\nplt.bar(br4, Naive_Bayes, color ='k', width = barWidth, edgecolor ='grey', label ='Mutinomial Naive Bayes')\n# Adding x-axis and y-axis labels, xticks, yticks and title\nplt.xlabel('\\nEvaluation Metrics', fontname=\"Times New Roman\", fontsize=88, fontweight=\"bold\")",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "br3",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "br3 = [x + barWidth for x in br2]\nbr4 = [x + barWidth for x in br3]\n# Make the plot\nplt.bar(br1, Our_Classifier, color ='r', width = barWidth, edgecolor ='grey', label ='Our Classifier')\nplt.bar(br2, Random_Forest, color ='g', width = barWidth, edgecolor ='grey', label ='Random Forest')\nplt.bar(br3, Decision_Tree, color ='b', width = barWidth, edgecolor ='grey', label ='Decision Tree')\nplt.bar(br4, Naive_Bayes, color ='k', width = barWidth, edgecolor ='grey', label ='Mutinomial Naive Bayes')\n# Adding x-axis and y-axis labels, xticks, yticks and title\nplt.xlabel('\\nEvaluation Metrics', fontname=\"Times New Roman\", fontsize=88, fontweight=\"bold\")\nplt.ylabel('Score\\n', fontname=\"Times New Roman\", fontsize=88, fontweight=\"bold\")",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    },
+    {
+        "label": "br4",
+        "kind": 5,
+        "importPath": "TWITTER FAKE ACCOUNT DETECTION",
+        "description": "TWITTER FAKE ACCOUNT DETECTION",
+        "peekOfCode": "br4 = [x + barWidth for x in br3]\n# Make the plot\nplt.bar(br1, Our_Classifier, color ='r', width = barWidth, edgecolor ='grey', label ='Our Classifier')\nplt.bar(br2, Random_Forest, color ='g', width = barWidth, edgecolor ='grey', label ='Random Forest')\nplt.bar(br3, Decision_Tree, color ='b', width = barWidth, edgecolor ='grey', label ='Decision Tree')\nplt.bar(br4, Naive_Bayes, color ='k', width = barWidth, edgecolor ='grey', label ='Mutinomial Naive Bayes')\n# Adding x-axis and y-axis labels, xticks, yticks and title\nplt.xlabel('\\nEvaluation Metrics', fontname=\"Times New Roman\", fontsize=88, fontweight=\"bold\")\nplt.ylabel('Score\\n', fontname=\"Times New Roman\", fontsize=88, fontweight=\"bold\")\nplt.title('Testing Performance Metrics Comparison of All the Models\\n', fontname=\"Times New Roman\", fontsize=111, fontweight=\"bold\")",
+        "detail": "TWITTER FAKE ACCOUNT DETECTION",
+        "documentation": {}
+    }
+]
