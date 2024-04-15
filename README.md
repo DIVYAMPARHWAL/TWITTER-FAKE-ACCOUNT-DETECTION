@@ -4,18 +4,6 @@ Fake/Bot Detection in Twitter Accounts: In twitter there are multiple fake/bot a
 ## Description
 This project aims to utilize machine learning techniques to detect fake Twitter accounts. It includes datasets, scripts, and documentation necessary to understand and replicate the detection process.
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Datasets](#datasets)
-- [Scripts](#scripts)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Acknowledgments](#acknowledgments)
-
 # How do I detect a Fake/bot Account?
 Now you know what a bot is, but the bigger question is would you know a bot if you encountered one? Depending on the level of stealth employed by a bot, some are easier to detect than others.
 * Some typical characteristics of bots on Twitter include:
